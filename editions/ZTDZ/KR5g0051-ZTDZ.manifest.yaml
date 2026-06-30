@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0051/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0051/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 正一法文法籙部儀
+  date: '2015-08-29 02:49:32.592231'
+  source:
+    repository: kanripo
+    path: KR5g0051
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0051_000-ZTDZ.yaml, hash: 'sha256:5aaec4a9a7800f6fc3ec7e518d897a2bdaf6bdd293a1ad075a4c91208dc1ef07'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0051_000-ZTDZ.markers.yaml, hash: 'sha256:14d94d0716537f27d29675368def6aedbf10cdaa55ded869b2736e60db9ed232'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0051_SJB_000-320198a
+    span:
+    - body
+    - 0
+    - 7127
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:82cf4e076ef91fb4d05c5dae7313b8f8783fee2fe782458911b1a7a17de14422
